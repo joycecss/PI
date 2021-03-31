@@ -96,24 +96,36 @@ ul li {
 .faixa2 .imagem1{
     width: 150px;
     float: left;
-    padding-top: 50px;
+    padding-top: 120px;
     padding-left: 450px;
 }
 .faixa2 .imagem2{
     width: 150px;
     float: left;
-    padding-top: 50px;
+    padding-top: 120px;
     padding-left: 300px;
 }
 .faixa2 .imagem3{
     width: 150px;
     float: left;
-    padding-top: 50px;
+    padding-top: 120px;
     padding-left: 300px;
 }
-#id_missao{
-    margin-top: 200px;
+.missao1{
+    float: left;
+    padding-top: 50px;
+    text-align: center;
 }
+.missao1 .fra1{
+    margin-left: 420px;
+}
+.missao1 .fra2{
+    margin-left: 250px;
+}
+.missao1 .fra3{
+    margin-left: 220px;
+}
+
 .div_final{
     text-align: center;
     color: white;
