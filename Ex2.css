@@ -2,6 +2,7 @@ body{
     margin: 0;
     padding: 0;
     border: 0;
+    background-color: red;
 }
 .cabecalho{
     background-color: #161616;
@@ -17,7 +18,9 @@ body{
 .cabecalho nav{
     color: white;
     float: right;
-
+    display: inline-block;
+    margin-left: 2rem;
+    font-size: 1.2rem;
 }
 .cabecalho .caixa{
     height: 30px;
@@ -27,6 +30,27 @@ body{
     margin-left: 300px;
 
 }
+.caixa .apresentacao_titulo{
+    font-size: 70px;
+    padding-top: 150px;
+    text-align: center;
+    color: red;
+}
+.apresentacao .apresentacao_para{
+    text-align: center;
+    margin-left: 300px;
+    margin-right: 200px;
+}
+.apresentacao{
+    margin-top: -40px;
+    background-image: url(team.png);
+    background-size: 100%;
+    background-repeat: no-repeat;
+    min-height: 500px;
+    text-align: center;
+    color: white;
+}
+
 .span_logo{
     font-size: 35px;
 }
@@ -40,4 +64,57 @@ ul li {
     margin: 30px;
     font-size: large;
     margin-right: 10px;
+}
+.faixa{
+    background-color:  #161616;
+    width: 100%;
+    height: 100px;
+
+}
+.faixa .faixa_titulo{
+    color: white;
+    float: left;
+    padding-left: 60px;
+    padding-top: 15px;
+}
+.faixa .email{
+    float: right;
+    padding-right: 60px;
+    padding-top: 40px;
+    height: 30px;
+}
+.faixa .email .but_env{
+    background-color: red;
+    color: white;
+    width: 80px;
+}
+.faixa2 {
+    background-color: white;
+    width: 100%;
+    height: 500px;
+}
+.faixa2 .imagem1{
+    width: 150px;
+    float: left;
+    padding-top: 50px;
+    padding-left: 450px;
+}
+.faixa2 .imagem2{
+    width: 150px;
+    float: left;
+    padding-top: 50px;
+    padding-left: 300px;
+}
+.faixa2 .imagem3{
+    width: 150px;
+    float: left;
+    padding-top: 50px;
+    padding-left: 300px;
+}
+#id_missao{
+    margin-top: 200px;
+}
+.div_final{
+    text-align: center;
+    color: white;
 }
