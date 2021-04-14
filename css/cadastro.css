@@ -2,7 +2,7 @@ body{
     margin: 0;
     padding: 0;
     border: 0;
-    background-color: #ecf0f1;
+    background-color: #b5e4f0;
     font-family: arial;
 }
 .cabecalho{
@@ -77,8 +77,11 @@ ul li {
     margin-left: 300px;
     margin-right: 50px;
 }
+.form{
+    float: left;
+}
 #img_cad{
     float: right;
     padding-right: 10%;
-    margin-top: -300px;
+    margin-top: 150px;
 }

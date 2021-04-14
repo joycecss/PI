@@ -1,0 +1,26 @@
+body{
+    margin: 0;
+    padding: 0;
+    border: 0;
+    background-color: #d2edf5;
+    font-family: arial;
+}
+.container{
+    margin-left: 5%;
+    margin-right: 5%;
+}
+.div_grafico1{
+    background-color: white;
+    width: 820px;
+    height: 320px;
+    border-radius: 8px;
+    margin-top: 150px;
+    margin-left: 400px;
+}
+.div_grafico2{
+    background-color: white;
+    width: 820px;
+    height: 320px;
+    border-radius: 8px;
+    margin-top: -100px;
+}
